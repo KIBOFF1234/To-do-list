@@ -1,0 +1,68 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  background: #363636;
+  width: max-content;
+  min-height: max-content;
+  padding: 10px;
+}
+
+.heading{
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.todo-list-grid, 
+.todo-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  width: max-content;
+  
+  grid-auto-rows: max-content;
+  
+}
+
+.todo-input-grid{
+  margin-bottom: 20px;
+  align-items: stretch;
+  
+}
+.todo-list-grid{
+  color: white;
+}
+.duedate-input,
+.todo-input{
+  padding: 6px;
+  font-size: 15px;
+}
+
+
+.del-btn{
+  padding-block: 8px;
+  font-size: 15px;
+  color: white;
+  background: #D11A1A;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.add-btn{
+  color:  white;
+  background: #59915C;
+  border: none;
+  border-radius: 5px;
+}
+.error{
+  color: red;
+  text-transform: capitalize;
+  font-size: 18px;
+  
+}
